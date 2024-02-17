@@ -5,7 +5,7 @@ public class EIAlert {
     public static let shared = EIAlert()
     private init() {}
     
-    public let rootViewController = UIApplication.shared.firstKeyWindow?.rootViewController
+    public let rootViewController = UIApplication.shared.firstKeyWindow?.rootViewController?.presentedViewController
 }
 
 
